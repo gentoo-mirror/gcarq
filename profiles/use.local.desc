@@ -1,0 +1,48 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-emulation/wine-lutris:capi - Enable ISDN support via CAPI
+app-emulation/wine-lutris:custom-cflags - Bypass strip-flags; use at your own peril
+app-emulation/wine-lutris:dos - Pull in games-emulation/dosbox to run DOS applications
+app-emulation/wine-lutris:faudio - Pull in app-emulation/faudio to provide XAudio2 functionality
+app-emulation/wine-lutris:gecko - Add support for the Gecko engine when using iexplore
+app-emulation/wine-lutris:gssapi - Use GSSAPI (Kerberos SSP support)
+app-emulation/wine-lutris:gstreamer - Use media-libs/gstreamer to provide DirectShow functionality;
+app-emulation/wine-lutris:mono - Add support for .NET using Wine's Mono add-on
+app-emulation/wine-lutris:netapi - Use libnetapi from net-fs/samba to support Windows networks in netapi32.dll
+app-emulation/wine-lutris:opencl - Enable OpenCL support
+app-emulation/wine-lutris:osmesa - Add support for OpenGL in bitmaps using libOSMesa
+app-emulation/wine-lutris:pcap - Support packet capture software (e.g. wireshark)
+app-emulation/wine-lutris:perl - Install helpers written in perl (winedump/winemaker)
+app-emulation/wine-lutris:prelink - Run prelink on DLLs during build; For Gentoo hardened, do not disable if you do not know what this means as it can break things at runtime
+app-emulation/wine-lutris:realtime - Pull in sys-auth/rtkit for low-latency pulseaudio support
+app-emulation/wine-lutris:run-exes - Use Wine to open and run .EXE and .MSI files
+app-emulation/wine-lutris:samba - Add support for NTLM auth. See: https://web.archive.org/web/20160108123008/http://wiki.winehq.org:80/NtlmAuthSetupGuide and https://web.archive.org/web/20150906013746/http://wiki.winehq.org/NtlmSigningAndSealing (these pages are not currently in the updated WineHQ Wiki).
+app-emulation/wine-lutris:sdl - Add support for gamepad detection using SDL
+app-emulation/wine-lutris:udev - Use virtual/libudev to provide plug and play support
+app-emulation/wine-lutris:vkd3d - Use app-emulation/vkd3d to provide Direct3D 12 support
+app-emulation/wine-lutris:vulkan - Enable Vulkan drivers
+media-libs/mesa:classic - Build drivers based on the classic architecture.
+media-libs/mesa:d3d9 - Enable Direct 3D9 API through Nine state tracker. Can be used together with patched wine.
+media-libs/mesa:dri3 - Enable DRI3 support.
+media-libs/mesa:egl - Enable EGL support.
+media-libs/mesa:gallium - Build drivers based on Gallium3D, the new architecture for 3D graphics drivers.
+media-libs/mesa:gbm - Enable the Graphics Buffer Manager for EGL on KMS.
+media-libs/mesa:gles1 - Enable GLESv1 support.
+media-libs/mesa:gles2 - Enable GLESv2 support.
+media-libs/mesa:libglvnd - Use libglvnd for dispatch.
+media-libs/mesa:llvm - Enable LLVM backend for Gallium3D.
+media-libs/mesa:opencl - Enable the Clover Gallium OpenCL state tracker.
+media-libs/mesa:osmesa - Build the Mesa library for off-screen rendering.
+media-libs/mesa:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
+media-libs/mesa:pic - disable optimized assembly code that is not PIC friendly
+media-libs/mesa:unwind - Add support for stack trace unwinding and function name resolution
+media-libs/mesa:valgrind - Compile in valgrind memory hints
+media-libs/mesa:vdpau - Enable the VDPAU acceleration interface for the Gallium3D Video Layer.
+media-libs/mesa:vulkan - Enable Vulkan drivers
+media-libs/mesa:vulkan-overlay - Build vulkan-overlay-layer which displays Frames Per Second and other statistics
+media-libs/mesa:wayland - Enable support for dev-libs/wayland
+media-libs/mesa:xa - Enable the XA (X Acceleration) API for Gallium3D.
+media-libs/mesa:xvmc - Enable the XvMC acceleration interface for the Gallium3D Video Layer.
+sys-kernel/me-sources:experimental - Apply experimental patches; for more information, see "https://wiki.gentoo.org/wiki/Project:Kernel/Experimental".
