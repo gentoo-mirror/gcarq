@@ -7,5 +7,5 @@ dev-python/black 19.10_beta0: The uncompromising Python code formatter
 kde-misc/plasma-applet-thermal-monitor 1.2.9-r2: Plasma 5 applet for monitoring CPU, GPU and other available temperature sensors
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
 net-p2p/trezord-go 2.0.27: TREZOR Communication Daemon
-sys-kernel/me-sources 5.5.6-r1: Gentoo's genpatches for Linux 5.5, including various other patches.
+sys-kernel/me-sources 5.5.7: Gentoo's genpatches for Linux 5.5, including various other patches.
 x11-themes/arc-kde 20180614: Port of the popular GTK theme Arc for Plasma 5
