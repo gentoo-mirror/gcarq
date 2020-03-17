@@ -1,4 +1,4 @@
-app-emulation/wine-lutris 4.13 4.16 4.18 4.20 5.0 5.2: Free implementation of Windows(tm) on Unix (lutris fork)
+app-emulation/wine-lutris 4.13 4.16 4.18 4.20 5.0 5.2 5.4: Free implementation of Windows(tm) on Unix (lutris fork)
 app-forensics/chkboot 1.3: chkboot is a tool to help detect changes to an unencrypted /boot partition
 app-misc/gentoo-scripts 9999: Personal Gentoo scripts to automate certain things
 media-libs/mesa 9999: OpenGL-like graphic library for Linux
